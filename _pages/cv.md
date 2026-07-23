@@ -5,4 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-To view my current CV in a new window, click <a href="/files/Mark_Deming_CV.pdf" target="_blank" rel="noopener noreferrer"><strong>HERE</strong></a>.
+To view my current CV in a new tab, click <a href="/files/Mark_Deming_CV.pdf" target="_blank" rel="noopener noreferrer"><strong>HERE</strong></a>.
