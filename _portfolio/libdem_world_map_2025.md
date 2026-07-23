@@ -5,7 +5,10 @@ collection: portfolio
 order: 1
 ---
 
-<iframe
-  src="/interactive/libdem_world_map_2025.html"
-  style="width: 100%; height: 850px; border: none;">
-</iframe>
+<p style="text-align: center;">
+  <a href="/interactive/libdem_world_map_2025.html"
+     target="_blank"
+     rel="noopener noreferrer">
+    View interactive visualization →
+  </a>
+</p>
