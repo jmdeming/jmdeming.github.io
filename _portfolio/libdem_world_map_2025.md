@@ -7,5 +7,5 @@ order: 1
 
 <iframe
   src="/interactive/libdem_world_map_2025.html"
-  style="width: 100%; height: 100%; border: none;">
+  style="width: 100%; height: 850px; border: none;">
 </iframe>
