@@ -4,62 +4,73 @@ title: "Data Visualization"
 permalink: /portfolio/
 author_profile: true
 ---
----
-layout: archive
-title: "Data Visualization"
-permalink: /portfolio/
-author_profile: true
----
 
 <p>
-I'm a data visualization instructor and enthusiast. Most of my work is created in R using tools such as <code>ggplot2</code> and <code>plotly</code>. Below is a selection of recent projects. You can also check out my TidyTuesday visualizations on <a href="https://github.com/jmdeming/tidytuesday" target="_blank" rel="noopener noreferrer">GitHub</a>.
+I'm a data visualization instructor and enthusiast. Most of my work is created in R using tools such as <code>ggplot2</code> and <code>plotly</code>. Below is a selection of recent projects. You can also check out my TidyTuesday visualizations at <a href="https://github.com/jmdeming/tidytuesday" target="_blank" rel="noopener noreferrer">GitHub</a>.
 </p>
 
-<div class="portfolio-gallery">
+<div style="
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+  margin-top: 2rem;
+">
 
-  <div class="portfolio-item">
+  <div>
     <a href="/interactive/libdem_world_map_2025.html"
        target="_blank"
        rel="noopener noreferrer">
 
       <img src="/images/libdem_world_map_2025.png"
            alt="Liberal Democracy Across the Globe"
-           style="width: 100%; max-width: 700px; height: auto;">
+           style="
+             width: 100%;
+             max-width: 260px;
+             height: auto;
+             display: block;
+             margin: 0 auto;
+           ">
     </a>
 
-    <h2>
+    <h3 style="margin-top: 0.75rem;">
       <a href="/interactive/libdem_world_map_2025.html"
          target="_blank"
          rel="noopener noreferrer">
         Liberal Democracy Across the Globe
       </a>
-    </h2>
+    </h3>
 
-    <p>
-      Interactive world map of liberal democracy using V-Dem v16.
+    <p style="font-size: 0.9em;">
+      Interactive world map using V-Dem v16.
     </p>
   </div>
 
 
-  <div class="portfolio-item">
+  <div>
     <a href="/images/irish_shipwrecks-map.png"
        target="_blank"
        rel="noopener noreferrer">
 
       <img src="/images/irish_shipwrecks-map.png"
            alt="Irish Shipwrecks"
-           style="width: 100%; max-width: 700px; height: auto;">
+           style="
+             width: 100%;
+             max-width: 260px;
+             height: auto;
+             display: block;
+             margin: 0 auto;
+           ">
     </a>
 
-    <h2>
+    <h3 style="margin-top: 0.75rem;">
       <a href="/images/irish_shipwrecks-map.png"
          target="_blank"
          rel="noopener noreferrer">
         Irish Shipwrecks
       </a>
-    </h2>
+    </h3>
 
-    <p>
+    <p style="font-size: 0.9em;">
       Spatial visualization of recorded shipwrecks around Ireland.
     </p>
   </div>
