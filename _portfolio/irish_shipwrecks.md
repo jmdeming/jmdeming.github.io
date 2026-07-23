@@ -2,6 +2,7 @@
 title: "Concetration of Irish Shipwrecks"
 excerpt: "Map of Irish shipwrecks"
 collection: portfolio
+order: 2
 ---
 
 This visualization maps Irish shipwrecks from 1300 to 2017 using data from the *Wreck Inventory of Ireland*. Created in R using `ggplot2`, `sf`, and `rnaturalearth`.
