@@ -2,6 +2,7 @@
 title: "Liberal Democracy Across the Globe"
 excerpt: "Interactive world map of liberal democracy in 2025 using V-Dem v16"
 collection: portfolio
+order: 1
 ---
 
 <iframe
