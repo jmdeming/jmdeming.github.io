@@ -11,6 +11,8 @@ I'm a data visualization instructor and enthusiast. Most of my work is created i
 
 {% include base_path %}
 
-{% for post in site.portfolio %}
+{% assign sorted_portfolio = site.portfolio | sort: "order" %}
+
+{% for post in sorted_portfolio %}
   {% include archive-single.html %}
 {% endfor %}
